@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+#barraSuperior {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+#barraInferior
+{
+  overflow:hidden;
+  border: 2px solid #e7e7e7;
+  background-color: #f3f3f3;
+  background-position: left;
+  position:fixed;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  height: 7%;
+  list-style-type: none;
+
+
+}
+#derecha{
+  float: right;
+  display: block;
+  font-family: arial;
+  font-size: 13px;
+  text-align: center;
+  padding: 6px 10px ;
+  opacity:0.6;
+}
+#izquierda{
+  float: left;
+  font-family: arial;
+  font-size: 13px;
+  text-align: center;
+  padding: 6px ;
+  padding-left: 2px;
+  opacity:0.6;
+}
+#izquierda:hover{
+  text-decoration: underline;
+}
+
+
+li{
+  float:right;
+
+}
+
+li a{
+  font-family:Arial;
+  font-size: 13px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  color:black;
+  padding: 8px 10px;
+  opacity:0.8 ;
+}
+
+li a:hover{
+  text-decoration: underline;
+  opacity: 0.9;
+
+}
+#googleBusqueda{
+    position: relative;
+  	margin: 0;
+  	padding: 0;
+  	width: 100%;
+  	min-width: 640px;
+  	min-height: 480px;
+  	text-align: center;
+  	top:95px;
+}
+input[type="text"] {
+  width: 45%;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: left;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+/*barra de busqueda con sombras */
+input[type="text"]:focus {
+  outline:none;
+}
+
+.style-1 input[type="text"] {
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+.style-1 input[type="text"]:focus, .style-1 input[type="text"].focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+.botonBusqueda{
+  padding: 10px 50px;
+  font-family: Arial;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  opacity: 0.7;
+}
+.botonBusqueda:hover{
+  border: 1px solid #ebdef0;
+  opacity: 1;
+  transition: opacity 0.3s, border 0.3s;
+}
